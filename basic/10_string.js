@@ -2,7 +2,7 @@ let a="Ashirbad" ;
 let b=new String("mohanty..");
 let c=a+b;
 console.log(c);
-// console.log(a+b);
+console.log(a+b);
 console.log(`my name is${a}${b}`)
 console.log(a[0]);
 console.log(a[3]);
