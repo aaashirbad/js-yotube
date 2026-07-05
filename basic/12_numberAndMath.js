@@ -19,3 +19,15 @@ let balance=new Number(score);
  let abc=10000000;
  console.log(abc.toLocaleString());
  console.log(abc.toLocaleString('en-IN'));
+
+
+
+//  math
+let kl=-2.55;
+console.log(Math.abs(kl));
+console.log(Math.round(kl));
+console.log(Math.ceil(kl));
+console.log(Math.floor(kl));
+console.log(Math.round(5.74));
+console.log(Math.ceil(5.74));
+console.log(Math.floor(5.74));
