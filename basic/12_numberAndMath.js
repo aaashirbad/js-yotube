@@ -16,7 +16,7 @@ let balance=new Number(score);
  
 
 
- let abc=10000000;
+ let abc=100000000;
  console.log(abc.toLocaleString());
  console.log(abc.toLocaleString('en-IN'));
 
