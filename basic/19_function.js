@@ -34,3 +34,12 @@ function calculatePrice(value1,value2,...price){
     return price;
 }
 console.log(calculatePrice(100,200,300,400,500));
+
+let d=10;
+var ee=20;
+const e=30;
+if(true){
+   // console.log(d);
+   // console.log(ee);
+    console.log(f);
+}
