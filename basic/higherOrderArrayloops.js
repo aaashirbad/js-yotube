@@ -38,23 +38,29 @@ for(let [something,some] of map){
 // }
 
 
-// let my={
-//     name:"Ashirbad",
-//     reg:35,
-//     sec:'a',
-//     cgpa:8.9
+let my={
+    name:"Ashirbad",
+    reg:35,
+    sec:'a',
+    cgpa:8.9
 
-// }
+}
 // for(let [vals,c] in my){
 //     console.log(my[vals,c])
+
 // }
+for(let num in my){
+    console.log(my[num]);
+    console.log(num);
+
+}
 
 let game={
     'game1':"cricket",
     'game2':"football",
     'game3':"hocky"
 }
-for (arr in game)
+for ( let arr in game)
 {
     console.log(arr);
     console.log(game[arr])
@@ -68,10 +74,10 @@ const programming=[
     "database"
 ]
 
-for(count in programming){
+for( let count in programming){
     console.log(count);
 }
-for(count in programming){
+for( let count in programming){
     console.log(programming[count]);
 }
 
